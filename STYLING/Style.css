@@ -1,56 +1,76 @@
-*{
-	font-family: Times New Roman;
-	text-align: center;
+.container{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-body{ 
-	background-color: white;
+article{
+    font-size: 18px;
+    background: #e4e4e4;
+    padding: 35px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+article:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: all 1s ease;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: #e4e4e4;
+    width: 330px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+
+.card-image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    isolation: isolate;
+}
+
+.avatar-1{
+    background-image: url(https://images-ext-1.discordapp.net/external/RsaGkOGAzjD2aP4VVbgDKrOF3PNCYFMN-myYQwLuuHA/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/759257965231341578/18141bbecb21bd73edde265fec5d1cea.webp)
+
+}
+
+.avatar-2{
+    background-image: url(https://images-ext-1.discordapp.net/external/uC89s4ct1xRQY9RlJXl6_HpAtEubvvhi5ALr-e_KUJ4/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/305281741306986496/7d90b0d1b00f7d8c2270880139df2b3f.webp?width=676&height=676)
+
+}
+
+.avatar-3{
+    background-image: url(https://images-ext-2.discordapp.net/external/Fo7f48i4bBGr5vzaZv1hIu4QlPMvVY8E2Fjdohk0k_c/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/377132426599727133/a_397ee5a5430027e76da0224e55b1c3d3.gif)
+
+}
+
+.card h2{
+    padding: 10px;
+    font-family: Comic
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: all 1s ease;
 }
 
 h1{
-	color: black;
+	text-align: center;
 }
-
-h2{
-	color: black;
-}
-
-p{
-	color: black;
-}
-
-li{
-	color: black;
-}
-
-p{
-	font-family: Candara;
-}
-
-p{
-	font-size: 20px;
-}
-
-ul{
-	font-size: 20px;
-}
-
-a{
-	font-size: 25px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 30%;
-  float: left;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-  padding: 2px 16px;
-}
-
