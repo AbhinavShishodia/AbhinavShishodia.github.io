@@ -1,97 +1,119 @@
 .container {
-	max-width: 800px;
-	margin: 0 auto;
-  }
-  
-  article {
-	font-size: 18px;
-	background: #e4e4e4;
-	padding: 35px;
-	border-radius: 6px;
-	text-align: center;
-	margin: 15px 0;
-	font-family: Comic Sans MS;
-  }
-  
-  article:hover {
-	cursor: pointer;
-	transform: scale(1.06);
-	transition: all 1s ease;
-  }
-  
-  .container {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-  }
-  
-  .card {
-	background: #e4e4e4;
-	width: 330px;
-	margin: 10px;
-	border-radius: 15px;
-	font-size: 18px;
-	font-family: Comic Sans MS;
-  }
-  
-  .card-image {
-	height: 250px;
-	margin-bottom: 15px;
-	background-size: cover;
-	border-radius: 15px 15px 0 0;
-	isolation: isolate;
-  }
-  
-  .avatar-1 {
-	background-image: url()
-  }
-  
-  .avatar-2 {
-	background-image: url()
-  }
-  
-  .avatar-3 {
-	background-image: url()
-  }
-  
-  .avatar-4 {
-	background-image: url()
-  }
-  
-  .avatar-5 {
-	background-image: url();
-  }
-  
-  .avatar-6 {
-	background-image: url()
-  }
-  
-  
-  
-  .card h2 {
-	padding: 10px;
-	font-family: Comic;
-  }
-  
-  .card p {
-	padding: 10px;
-  }
-  
-  .card:hover {
-	cursor: pointer;
-	transform: scale(1.1);
-	transition: all 1s ease;
-  }
-  
-  h1 {
-	text-align: center;
-	font-family: Comic Sans MS;
-  }
-  
-  a {
-	text-align: right -50px;
-	margin-bottom: 100px;
-	margin-top: 500px;
-	font-size: 40px;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+article {
+  font-size: 18px;
+  background: #e4e4e4;
+  padding: 35px;
+  border-radius: 6px;
+  text-align: center;
+  margin: 15px 0;
+  font-family: Comic Sans MS;
+}
+
+article:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+  transition: all 1s ease;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #e4e4e4;
+  width: auto;
+  margin: 30px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-family: Comic Sans MS;
+}
+
+.card-image {
+  height: 600px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  isolation: isolate;
+}
+
+.avatar-1 {
+  background-image: url(https://cdn.discordapp.com/avatars/477758607857942529/f5764ec0e99d953afad588b2c022914d.png?size=256);
+}
+
+.avatar-2 {
+  background-image: url(https://images-ext-1.discordapp.net/external/kfjZLjDMNgY4G5CcVQUDQB4qBlXFH3gphdcreVl5RKQ/%3Fsize%3D256/https/cdn.discordapp.com/avatars/428099232407486464/14a58b8d90d65f1e45910e91c3952d69.png);
+}
+
+.avatar-3 {
+  background-image: url();
+}
+
+.avatar-4 {
+  background-image: url();
+}
+
+.avatar-5 {
+  background-image: url();
+}
+
+.avatar-6 {
+  background-image: url();
+}
+
+.avatar-7 {
+  background-image: url();
+}
+
+.avatar-8 {
+  background-image: url();
+}
+
+.avatar-9 {
+}
+
+.avatar-10 {
+}
+
+.card h2 {
+  padding: 10px;
+  font-family: Comic;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+
+h1 {
+  text-align: center;
+  font-family: Comic Sans MS;
+}
+
+a {
+  text-align: right -50px;
+  margin-bottom: 100px;
+  margin-top: 500px;
+  font-size: 40px;
+}
+
+#Noyr {
+  background-image: url(https://media.discordapp.net/attachments/780119249871831041/844572662840033330/Kaguya_Banner.png?width=1203&height=676);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#Rameez {
+  border: 5px solid #000000;
+}
