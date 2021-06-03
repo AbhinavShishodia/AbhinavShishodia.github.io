@@ -1,4 +1,4 @@
-#Chika{
+#Chika {
   background-image: url(https://media.discordapp.net/attachments/780119249871831041/844569393261183047/Saber_Server_Banner_2.png?width=1203&height=676);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -67,7 +67,7 @@ article:hover {
 }
 
 .avatar-4 {
-  background-image: url()
+  background-image: url();
 }
 
 .avatar-5 {
@@ -75,18 +75,16 @@ article:hover {
 }
 
 .avatar-6 {
-  background-image: url(https://media.discordapp.net/attachments/620957061789908992/844191366125060117/Okita.png)
+  background-image: url(https://media.discordapp.net/attachments/620957061789908992/844191366125060117/Okita.png);
 }
 
 .avatar-7 {
-    background-image: url(https://images-ext-2.discordapp.net/external/TSCOIld5u1-cwEbxyKWYX8t9nflB1k4zB15lJn_UcVQ/%3Fsize%3D256/https/cdn.discordapp.com/avatars/468392588790071296/94e8658415f1b800fcacaca3f5880c09.png)
-}
-    
-.avatar-8{
-    background-image: url(https://images-ext-1.discordapp.net/external/xZwNSaEPyyOAHFI08rxNX5r2iiuIQH1G8xmTR3eqHpI/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/516247416878530560/f66f0da8c1133a3101067b5829fd109b.png);
+  background-image: url(https://images-ext-2.discordapp.net/external/TSCOIld5u1-cwEbxyKWYX8t9nflB1k4zB15lJn_UcVQ/%3Fsize%3D256/https/cdn.discordapp.com/avatars/468392588790071296/94e8658415f1b800fcacaca3f5880c09.png);
 }
 
-
+.avatar-8 {
+  background-image: url(https://images-ext-1.discordapp.net/external/xZwNSaEPyyOAHFI08rxNX5r2iiuIQH1G8xmTR3eqHpI/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/516247416878530560/f66f0da8c1133a3101067b5829fd109b.png);
+}
 
 .card h2 {
   padding: 10px;
@@ -115,7 +113,6 @@ a {
   font-size: 40px;
 }
 
-img{
+img {
   border: 5px solid #e4e4e4;
 }
-
