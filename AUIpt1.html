@@ -2,13 +2,43 @@
 <html lang="en">
   <html>
     <head>
-      <title>The Adventures in AUI</title>
+      <title>Legends of AUI</title>
+      <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" type="text/css" href="STYLING/Style.css" />
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(function () {
+        $(".hamburger").click(function () {
+          $(".nav-bar-right").toggleClass("active");
+        });
+      });
+    </script>
     </head>
 
     <body>
+
+      <div class="wrapper">
+        <div class="nav-bar">
+          <div class="hamburger"><i class="fas fa-bars"></i></div>
+          <div class="nav-bar-left">
+            <a href="#">AUI</a>
+          </div>
+          <div class="nav-bar-right">
+            <ul class="NavP">
+              <li><a href="#" class="active">home</a></li>
+              <li><a href="#duh">about</a></li>
+              <li><a href="#">start</a></li>
+              <li><a href="#">end</a></li>
+              <li class="calign"><a href="contact.html">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <center>
         <b>
           <h1>My Adventures in AUI</h1>
