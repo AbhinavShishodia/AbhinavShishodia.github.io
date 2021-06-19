@@ -1,3 +1,13 @@
+#Noyr {
+  background-image: url(https://media.discordapp.net/attachments/780119249871831041/844572662840033330/Kaguya_Banner.png?width=1203&height=676);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -66,11 +76,11 @@ article:hover {
   background-image: url();
 }
 
-.avatar-7 {
+.avatar-69 {
   background-image: url();
 }
 
-.avatar-8 {
+.avatar-70 {
   background-image: url();
 }
 
@@ -101,13 +111,17 @@ a {
   font-size: 40px;
 }
 
-#Noyr {
-  background-image: url(https://media.discordapp.net/attachments/780119249871831041/844572662840033330/Kaguya_Banner.png?width=1203&height=676);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}
 
 #Rameez {
   border: 5px solid #000000;
 }
+
+@media screen and ( max-width: 768px ){
+  .card:hover {
+    cursor: pointer;
+    transform: none;
+    transition: none;
+  }
+}
+  
+

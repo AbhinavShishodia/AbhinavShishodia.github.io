@@ -5,17 +5,49 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="STYLING/Style.css" />
-    <script type="text/javascript" src="STYLING/avatar.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+  />
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+$(function () {
+  $(".hamburger").click(function () {
+    $(".nav-bar-right").toggleClass("active");
+  });
+});
+</script>
   </head>
-  <body>
+  <body id="Dope" >
+
+    <div class="wrapper">
+      <div class="nav-bar">
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+        <div class="nav-bar-left">
+          <a href="#">AUI</a>
+        </div>
+        <div class="nav-bar-right"> 
+          <ul class="NavP">
+            <li><a href="index.html" class="active">home</a></li>
+            <li><a href="projectAUIpt5.html">back</a></li>
+            
+            
+            <li class="calign"><a href="projectAUIpt7.html">next</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <h1>The Chutiyas of AUI</h1>
 
     <div class="container">
       <article>
         <h2>Aynul</h2>
         <center>
-          <img
-            src="https://media.discordapp.net/attachments/458677125759631370/844146175208849418/OIP.jpeg"
+          <img style="height: 300px;"
+
+            src ="https://i.pinimg.com/736x/00/6f/43/006f4359138a1b6dae70312d2d16e30d.jpg"
+            
           />
         </center>
         <p>

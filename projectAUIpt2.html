@@ -5,10 +5,39 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="STYLING/Style.css">
-<script type="text/javascript" src="STYLING/avatar.js"></script>
-
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+  $(function () {
+    $(".hamburger").click(function () {
+      $(".nav-bar-right").toggleClass("active");
+    });
+  });
+</script>
 </head>
-<body>
+<body id="Noyr">
+
+    <div class="wrapper">
+        <div class="nav-bar">
+          <div class="hamburger"><i class="fas fa-bars"></i></div>
+          <div class="nav-bar-left">
+            <a href="#">AUI</a>
+          </div>
+          <div class="nav-bar-right">
+            <ul class="NavP">
+              <li><a href="index.html" class="active">home</a></li>
+              <li><a href="AUIpt1.html">back</a></li>
+              
+              
+              <li class="calign"><a href="projectAUIpt3.html">next</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
 <h1>The Owner and EX-Owner of AUI</h1>
 
        
@@ -38,6 +67,7 @@
 
     </div>
 
+  
 
 </body>
 </html>

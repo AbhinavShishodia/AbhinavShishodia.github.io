@@ -3,9 +3,42 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="STYLING/Style9.css" />
+    <link rel="stylesheet" type="text/css" href="STYLING/Styl.css" />
+    <link rel="stylesheet" type="text/css" href="STYLING/Style4.css"/>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+  />
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+$(function () {
+  $(".hamburger").click(function () {
+    $(".nav-bar-right").toggleClass("active");
+  });
+});
+</script>
   </head>
-  <body>
+
+  <body id="Noyr">
+    <div class="wrapper">
+      <div class="nav-bar">
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+        <div class="nav-bar-left">
+          <a href="#">AUI</a>
+        </div>
+        <div class="nav-bar-right">
+          <ul class="NavP">
+            <li><a href="index.html" class="active">home</a></li>
+            <li><a href="projectAUIpt8.html">back</a></li>
+            
+            
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
     <h1>Some Wise Words from wise and chutiyas of AUI</h1>
 
     <center>
@@ -64,8 +97,8 @@
       />
 
       <h2>And lastly i also wanna say some wise words</h2>
-
-      <p>
+<article>
+      <p id="emo">
         So we are here at the last webpage of our introduction phase guys,It is
         sad that slowly slowly our OGs of AUI are going offline and it is very
         painful that the members who made AUI the server in which we all became
@@ -77,14 +110,9 @@
         skills,Thank you for giving us a great server like AUI,I will treasure
         the memories of AUI for my whole life and i think we all will...
       </p>
+      </article>
     </center>
 
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-    <script src="STYLING/darkmode.js"></script>
 
-    <a href="projectAUIpt8.html" style="float: left">
-      Back to The Famous memes</a
-    >
-    <a href="index.html" style="float: right">To the front page</a>
   </body>
 </html>

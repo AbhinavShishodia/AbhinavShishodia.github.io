@@ -1,5 +1,5 @@
-1 {
-  font-size: 80px;
+h1 {
+  font-size: 50px;
 }
 
 h1 {
@@ -24,4 +24,8 @@ p {
 
 ul {
   font-size: 25px;
+}
+
+#emo{
+  text-align: center;
 }
