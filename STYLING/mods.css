@@ -73,16 +73,10 @@
     position: absolute;
     top: 20px;
     right: 20px;
-    color: #fff;
-  }
-
-  .nav-bar .hamburgereww {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 20px;
     color: black;
   }
+
+
   .nav-bar .nav-bar-left a {
     font-size: 50px;
     font-weight: bold;
@@ -150,7 +144,6 @@ article {
   line-height: 25px;
   word-spacing:0.2px
 }
-
 
 article:hover {
   cursor: pointer;
